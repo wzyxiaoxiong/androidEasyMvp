@@ -1,0 +1,15 @@
+adb pull data/data/com.noahedu.noahmvpdemo/databases/data.db E:/noahmvp.db
+
+adb pull data/data/com.noahedu.noahmvpdemo/files/tea_native.db E:/
+
+cd data/data/com.noahedu.noahmvpdemo/databases/
+ 
+
+adb shell
+echo 0 > /proc/rockchip/mount_flag
+adb remount
+
+adb uninstall com.noahedu.noahmvpdemo
+
+ 
+

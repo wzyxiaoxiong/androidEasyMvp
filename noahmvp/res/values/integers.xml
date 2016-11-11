@@ -1,0 +1,4 @@
+<resources>  
+   <!-- <integer name="databases_version">1</integer> -->  
+   <integer name="databases_version">11</integer> <!-- 部分表id将int类型改为string -->
+</resources>
